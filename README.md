@@ -12,7 +12,7 @@ $$
 $$
 
 $$
-    \text{M-Step} = \hspace{1cm} p^{(n+1)}(w|\Theta _d) = \frac{c(w,d)p^{(n)}(z=0|w)}{\sum_{w'\epsilon V}c(w',d)p^{(n)}(z=0|w')}
+    \text{M-Step}: \quad p^{(n+1)}(w|\Theta_d) = \frac{c(w,d)p^{(n)}(z=0|w)}{\sum_{w' \in V} c(w',d)p^{(n)}(z=0|w')}
 $$
 
 
